@@ -12,9 +12,6 @@ class System:
         
     def system_info_interface(self):
         
-        def event(event):
-            print("CPU Sekmeye Girildi")
-        
         notebook = ttk.Notebook(self.root)
         
         os_tab = Frame(notebook)
@@ -114,9 +111,6 @@ class System:
                 list.insert(index, i[0] + " @ " + i[1])
                 
             list.place(x=x, y=260)
-
-            
-            os_tab.bind("<Button-1>", event)
             
                 
             def update():
