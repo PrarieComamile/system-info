@@ -1,8 +1,7 @@
 # System-Info
  Thanks to this project, you can access system information.
  
- *Use linux for best performance*
-
+*This program only works on linux*
 
 Python Library
 -----
